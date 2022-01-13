@@ -16,7 +16,7 @@ Frontend build from Electron React Boilerplate
 [交易机器人本体(node-js)](https://github.com/KevinTroyT/binance-rotation-bot/tree/master/src/main/TradeBot)
 
 # Usage🚀
-git clone 
+git clone \n
 yarn
 yarn start
 修改apiKey apiSecret 
