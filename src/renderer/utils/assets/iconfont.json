@@ -1,0 +1,44 @@
+{
+  "id": "2809679",
+  "name": "tradebot",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13304028",
+      "name": "robot",
+      "font_class": "robot",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "24369663",
+      "name": "robot",
+      "font_class": "robot-copy",
+      "unicode": "e946",
+      "unicode_decimal": 59718
+    },
+    {
+      "icon_id": "6078888",
+      "name": "eth-01",
+      "font_class": "eth-",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "11994009",
+      "name": "USDT",
+      "font_class": "USDT",
+      "unicode": "e7f8",
+      "unicode_decimal": 59384
+    },
+    {
+      "icon_id": "18883454",
+      "name": "Bitcoin",
+      "font_class": "Bitcoin",
+      "unicode": "e945",
+      "unicode_decimal": 59717
+    }
+  ]
+}

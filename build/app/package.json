@@ -1,0 +1,17 @@
+{
+  "name": "trade-bot",
+  "productName": "trade-bot",
+  "version": "0.0.5",
+  "description": "轮动机器人made by kkevin",
+  "main": "./dist/main/main.js",
+  "author": {
+    "name": "kkevin"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../../.erb/scripts/babel-register.js ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ../../.erb/scripts/babel-register.js ../../.erb/scripts/link-modules.js",
+    "postinstall": "yarn electron-rebuild && yarn link-modules"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
