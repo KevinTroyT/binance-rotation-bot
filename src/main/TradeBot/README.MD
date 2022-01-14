@@ -21,8 +21,24 @@
 
 # 参数说明💡
 
-    new TradeBot(apiKey, apiSecret, {
+    tb = new TradeBot(apiKey, apiSecret, {
         	baseURL:  '币安api地址',
         	tradeOver: '发起交易价格差 默认0.02',
         	url: '企业微信机器人webhook'
     });
+
+    tb.onTrade( (symbol: SymbolType) => {
+      // 交易回调,symbol:交易对
+    })
+
+    tb.onTick( (ms: number) => {
+      // timer每秒回调, ms: 毫秒数
+    })
+
+
+    tb.onError((err: string) => {
+      // 发生错误回调
+    });
+
+    Timer控制
+    tb.startBot();tb.stopBot();tb.pauseBot();
