@@ -38,4 +38,4 @@ Frontend build from Electron React Boilerplate
  
  企业微信机器人通知
   
-![webhook](https://raw.githubusercontent.com/KevinTroyT/binance-rotation-bot/master/doc/image/webhook.png)
+![webhook](https://raw.githubusercontent.com/KevinTroyT/binance-rotation-bot/master/doc/image/webhook.jpeg)
