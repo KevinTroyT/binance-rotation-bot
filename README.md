@@ -32,3 +32,10 @@ yarn start
 |feature| ❌ | 可以修改比例 |
 |feature| ❌ | 改成多币轮动 |
 |feature| ❌ | 增加release |
+
+
+# webhook 🪝
+ 
+ 企业微信机器人通知
+  
+![webhook](https://raw.githubusercontent.com/KevinTroyT/binance-rotation-bot/master/doc/image/webhook.png)
