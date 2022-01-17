@@ -34,6 +34,7 @@ const NotificationSetting = (props: any) => {
       onFinishFailed={onFinishFailed}
       autoComplete="off"
       form={form}
+      // eslint-disable-next-line react/destructuring-assignment
       style={props.style}
     >
       <Form.Item

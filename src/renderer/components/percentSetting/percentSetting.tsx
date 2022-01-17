@@ -9,6 +9,7 @@ const PercentSetting = (props: any) => {
     return `${value}%`;
   }
   return (
+    // eslint-disable-next-line react/destructuring-assignment
     <Content style={props.style}>
       BTC: <Slider tipFormatter={formatter} value={50} />
       ETH: <Slider tipFormatter={formatter} value={50} />

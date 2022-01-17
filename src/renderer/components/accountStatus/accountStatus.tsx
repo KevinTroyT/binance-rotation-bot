@@ -49,7 +49,8 @@ const AccountStatus = () => {
           style={{ height: 240 }}
           loading={loading}
         >
-          <img src={ETHicon} alt="icon" style={{width:15,height:15}} /> ETH:{eth.amount}({eth.price})
+          <img src={ETHicon} alt="icon" style={{ width: 15, height: 15 }} />{' '}
+          ETH:{eth.amount}({eth.price})
           <Progress
             percent={eth.percent}
             strokeColor="#6c7ddc"
@@ -58,7 +59,8 @@ const AccountStatus = () => {
               return eth.usdt.toString();
             }}
           />
-          <img src={BTCicon} alt="icon" style={{width:15,height:15}} /> BTC:{btc.amount}({btc.price})
+          <img src={BTCicon} alt="icon" style={{ width: 15, height: 15 }} />{' '}
+          BTC:{btc.amount}({btc.price})
           <Progress
             percent={btc.percent}
             strokeColor="#e8973d"
@@ -67,7 +69,8 @@ const AccountStatus = () => {
               return btc.usdt.toString();
             }}
           />
-          <img src={USDTicon} alt="icon" style={{width:15,height:15}} /> USDT:{usdt.amount}
+          <img src={USDTicon} alt="icon" style={{ width: 15, height: 15 }} />{' '}
+          USDT:{usdt.amount}
           <Progress
             percent={usdt.percent}
             strokeColor="#02C229"
